@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::selection {
+  background-color: #fff;
+  color: #33a3ff;
+}
+#nav-main {
+  display: flex;
+  align-items: center;
+  padding: 0 62px;
+}
+
+body::-webkit-scrollbar {
+  display: block;
+  width: 0.5em;
+  background: linear-gradient(to left bottom, transparent);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #33a3ff;
+  border-radius: 1em;
+}
+
+.product-style {
+  padding-top: 50px;
+}
+
+.gen-pages {
+  display: flex;
+  justify-content: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
